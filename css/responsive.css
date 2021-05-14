@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 3, 2019, 12:19:09 PM
+    Author     : frontend
+*/
+
+
+/*
+
+> 0px   XS - NO NAME
+
+
+> 576px SM - small devices
+
+
+
+> 768px MD  - medium devices
+
+
+> 992px  LG    large devices
+
+
+
+> 1200px  XL   extra large devices
+
+*/
+
+
+
+@media( min-width:576px){
+
+    .home .carousel-item{
+        background-position: right center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 20% 0 10%;
+    }
+
+    .home .carousel-item .caption p{
+        font-size: 18px;
+    }
+
+
+
+    .about .about-item h2{
+        font-size: 40px;
+    }
+
+    .about .about-item p{
+        font-size: 18px;
+    }
+
+    .services h2{
+        font-size: 40px;
+    }
+
+    .portfolio h2{
+        font-size: 40px;
+    }
+}
+
+
+
+
+
+
+@media(min-width:768px){
+
+    .home .carousel-item .caption .link-button{
+        font-size: 16px;
+    }
+    .about .about-item{
+        padding: 80px 0 150px;
+    }
+
+    .portfolio .portfolio-item a{
+        bottom: 10px;
+        font-size: 9px;
+        color: white;
+        padding: 2px 5px;
+    }
+}
+
+
+@media(min-width:992px){
+    .navbar-light .navbar-nav .nav-link {
+        padding: 15px;
+    }
+
+    .home .carousel-item .caption h1{
+        font-size: 84px;
+    }
+}
+
+
+@media(min-width:1200px){
+
+    .container{
+        max-width: 1170px;
+    } 
+
+
+}
